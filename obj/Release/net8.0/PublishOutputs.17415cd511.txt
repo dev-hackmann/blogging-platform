@@ -1,0 +1,12 @@
+/home/nirah/project/blogging-platform/out/blogging-platform
+/home/nirah/project/blogging-platform/out/appsettings.Development.json
+/home/nirah/project/blogging-platform/out/appsettings.json
+/home/nirah/project/blogging-platform/out/blogging-platform.dll
+/home/nirah/project/blogging-platform/out/blogging-platform.deps.json
+/home/nirah/project/blogging-platform/out/blogging-platform.runtimeconfig.json
+/home/nirah/project/blogging-platform/out/blogging-platform.pdb
+/home/nirah/project/blogging-platform/out/Microsoft.AspNetCore.OpenApi.dll
+/home/nirah/project/blogging-platform/out/Microsoft.OpenApi.dll
+/home/nirah/project/blogging-platform/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/nirah/project/blogging-platform/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/nirah/project/blogging-platform/out/Swashbuckle.AspNetCore.SwaggerUI.dll
