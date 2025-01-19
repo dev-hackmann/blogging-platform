@@ -1,0 +1,25 @@
+services:
+  app:
+    build: .
+    ports:
+      - '5040:8080'
+    depends_on:
+      - db
+    environment:
+      DATABASE_HOST: db
+      DATABASE_PORT: ${PGPORT}
+      DATABASE_USER: ${PGUSER}
+      DATABASE_PASSWORD: ${PGPASSWORD}
+      DATABASE_NAME: ${PGDATABASE}
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
+      POSTGRES_DB: ${PGDATABASE}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
