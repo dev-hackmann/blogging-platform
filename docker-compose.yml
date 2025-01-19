@@ -4,15 +4,15 @@ services:
     ports:
       - '5040:8080'
     depends_on:
-      - db
+      - postgres
     environment:
-      DATABASE_HOST: db
+      DATABASE_HOST: postgres
       DATABASE_PORT: ${PGPORT}
       DATABASE_USER: ${PGUSER}
       DATABASE_PASSWORD: ${PGPASSWORD}
       DATABASE_NAME: ${PGDATABASE}
 
-  db:
+  postgres:
     image: postgres:15
     environment:
       POSTGRES_USER: ${PGUSER}
